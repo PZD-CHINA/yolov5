@@ -33,7 +33,7 @@ python detect.py  --source [path-to-file]
 | Input Image | Result Image |
 | --- | --- |
 | ![infer](./assets/infer.jpg "infer") | ![result](./assets/result.jpg "result") |
-| ![infer](./assets/infer.jpg "infer") | ![result](./assets/result.jpg "result") |
+| ![infer](./ "infer") | ![result](./ "result") |
 
 ## Reference 
 - [YOLOv5](https://github.com/ultralytics/yolov5)
