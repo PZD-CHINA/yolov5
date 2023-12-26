@@ -511,7 +511,7 @@ def parse_opt(known=False):
     parser.add_argument('--upload_dataset', action='store_true', help='W&B: Upload dataset as artifact table')
     parser.add_argument('--bbox_interval', type=int, default=-1, help='W&B: Set bounding-box image logging interval')
     parser.add_argument('--artifact_alias', type=str, default='latest', help='W&B: Version of dataset artifact to use')
-
+    opt = parser.parse_known_args()[0] if known else parser.parse_args()
     return parser.parse_known_args()[0] if known else parser.parse_args()
 
 
