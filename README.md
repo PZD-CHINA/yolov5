@@ -17,19 +17,22 @@ pip install -r requirements.txt
 ```bash
 python train.py
 ```
-Training results on valid set: 
-![result](./assets/training_result.jpg "result")
-Metrics:
-![conf](./assets/confusion_matrix.png "conf")
+the results are stored in ./runs/train/exp
 
-## Inference with `detect.py`
+Training results on valid set: 
+![result](./runs/train/exp7/train_batch0.jpg "result")
+Metrics:
+![conf](./runs/train/exp7/labels_correlogram.jpg "conf")
+
+## detect
 `detect.py` runs inference on a variety of sources.
 ```bash
-python detect.py --weights [path-to-model] --source [path-to-file] 
+python detect.py  --source [path-to-file] 
 ```
 
 | Input Image | Result Image |
 | --- | --- |
+| ![infer](./assets/infer.jpg "infer") | ![result](./assets/result.jpg "result") |
 | ![infer](./assets/infer.jpg "infer") | ![result](./assets/result.jpg "result") |
 
 ## Reference 
