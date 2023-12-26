@@ -33,7 +33,9 @@ python detect.py  --source [path-to-file]
 | Input Image | Result Image |
 | --- | --- |
 | ![infer](./data/catimage/4.jpg "infer") | ![result](./runs/detect/exp7/4.jpg "result") |
-| ![infer](./data/catimage/3.jpg "infer") | ![result](./runs/detect/exp7/4.jpg "result") |
+| ![infer](./data/catimage/2.jpg "infer") | ![result](./runs/detect/exp9/2.jpg "result") |
+
+
 
 ## Reference 
 - [YOLOv5](https://github.com/ultralytics/yolov5)
