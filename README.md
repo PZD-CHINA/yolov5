@@ -55,3 +55,4 @@ To improve the detection accuracy of profile views, the following measures can b
 
 ## Reference 
 - [YOLOv5](https://github.com/ultralytics/yolov5)
+- [Chinese Guide](https://blog.csdn.net/oJiWuXuan/article/details/107558286)
