@@ -1,27 +1,5 @@
 # Repo-specific GitIgnore ----------------------------------------------------------------------------------------------
-*.bmp
-*.tif
-*.tiff
-*.heic
-*.JPEG
-*.BMP
-*.TIF
-*.TIFF
-*.HEIC
-*.mp4
-*.mov
-*.MOV
-*.avi
-*.data
-*.json
-*.cfg
-!setup.cfg
-!cfg/yolov3*.cfg
-
 storage.googleapis.com
-runs/*
-data/*
-data/images/*
 !data/*.yaml
 !data/hyps
 !data/scripts
