@@ -34,6 +34,8 @@ python detect.py  --source [path-to-file]
 | --- | --- |
 | ![infer](./data/catimage/5.jpg "infer") | ![result](./runs/detect/exp10/5.jpg "result") |
 | ![infer](./data/catimage/2.jpg "infer") | ![result](./runs/detect/exp9/2.jpg "result") |
+| ![infer](./data/catimage/dog3.jpg "infer") | ![result](./runs/detect/exp13/dog3.jpg "result") |
+
 
 ## Result analysis
 YOLOv5 is a deep learning-based object detection model that is capable of recognizing and locating multiple objects within an image. When detecting cat faces, frontal and profile (side) views may be detected differently due to several factors:
