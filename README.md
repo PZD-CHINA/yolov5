@@ -32,7 +32,7 @@ python detect.py  --source [path-to-file]
 
 | Input Image | Result Image |
 | --- | --- |
-| ![infer](./data/catimage/4.jpg "infer") | ![result](./runs/detect/exp7/4.jpg "result") |
+| ![infer](./data/catimage/5.jpg "infer") | ![result](./runs/detect/exp10/5.jpg "result") |
 | ![infer](./data/catimage/2.jpg "infer") | ![result](./runs/detect/exp9/2.jpg "result") |
 
 ## Result analysis
